@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WildGuardians | Save Wildlife</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyBK2RW6SIjzqIjbjaMITvcAIDGFxTRisWPA&s') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+    nav {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: limegreen;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: lime;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 150px 20px;
+    }
+
+    .hero h1 {
+      font-size: 60px;
+      color: white;
+      text-shadow: 2px 2px 10px black;
+    }
+
+    .hero p {
+      font-size: 24px;
+      margin-top: 10px;
+      color: #c0ffc0;
+    }
+
+    .join-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 30px;
+      background-color: transparent;
+      border: 2px solid white;
+      color: white;
+      font-size: 18px;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .join-btn:hover {
+      background-color: limegreen;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">WILD<span style="color:white;">GUARDIANS</span></div>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Protect WILDANIMALS</h1>
+    <p>Together we save the voice of the forests</p>
+    <a class="join-btn" href="protect.html">JOIN WITH US</a>
+  </section>
+</body>
+</html>
